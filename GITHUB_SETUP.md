@@ -1,13 +1,14 @@
 # GitHub setup
 
-The website entry file is included as `index-html-source.txt` so the full source remains available even in environments that filter direct HTML uploads.
+The repository contains the complete CodePilot AI website source, including the Vite entry file, React components, styling, and configuration.
 
-After cloning the repository, rename it once:
+Clone and run it with:
 
 ```bash
-mv index-html-source.txt index.html
+git clone https://github.com/usmanking34354/codepilot-ai.git
+cd codepilot-ai
 pnpm install
 pnpm dev
 ```
 
-After that, the project runs as a standard Vite + React app.
+The project runs as a standard Vite + React app.
